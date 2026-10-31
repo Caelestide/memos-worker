@@ -9,15 +9,15 @@ run_worker_first = [
 
 [[d1_databases]]
 binding = "DB"
-database_id = "YOUR_D1_DATABASE_ID"
-database_name = "YOUR_D1_DATABASE_NAME"
+database_id = "29ca8789-6cde-427a-9385-55796c7b52fe"
+database_name = "memos-notes-db"
 
 [[kv_namespaces]]
 binding = "NOTES_KV"
-id = "YOUR_KV_NAMESPACE_ID"
+id = "memos-notes-kv"
 preview_id = ""
 
 [[r2_buckets]]
 binding = "NOTES_R2_BUCKET"
-bucket_name = "YOUR_R2_BUCKET_NAME"
+bucket_name = "memos-notes-r2"
 preview_bucket_name = "notes-files-preview"
